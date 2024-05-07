@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../img/clouds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+#welcome {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+#features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature {
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feature img {
+    max-width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.feature h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.feature p {
+    color: #666;
+}
+
+footer {
+
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

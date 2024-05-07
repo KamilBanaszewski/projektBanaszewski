@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dodaj nowy plan podróży</title>
+    <link rel="stylesheet" href="../public/css/trip.css">
+</head>
+<body>
+    <header>
+        <h1>Dodaj nowy plan podróży</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/">Strona główna</a></li>
+            <li><a href="about">O nas</a></li>
+            <li><a href="contact">Kontakt</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="countryInfo">
+            <h2>Informacje o wybranym kraju</h2>
+            <p id="countryDescription"></p>
+        </div>
+        <form action="/potwierdzenie" method="POST" onsubmit="return validateForm()">
+            <label for="country">Wybierz kraj:</label>
+            <select id="country" name="country" required>
+                <option value="" disabled selected>Wybierz kraj</option>
+                <option value="Hiszpania">Hiszpania</option>
+                <option value="Francja">Francja</option>
+                <option value="Włochy">Włochy</option>
+                <option value="Niemcy">Niemcy</option>
+                <option value="Anglia">Anglia</option>
+            </select>
+            <br>
+            <label for="city">Wybierz miasto:</label>
+            <select id="city" name="city" required>
+                <option value="" disabled selected>Wybierz miasto</option>
+            </select>
+            <br>
+            <label for="hotel">Wybierz hotel:</label>
+            <select id="hotel" name="hotel" required>
+                <option value="" disabled selected>Wybierz hotel</option>
+            </select>
+            <br>
+            <div id="attractionSection">
+                <div class="attractionContainer">
+                    <h2 class="attractionTitle">Dostępne atrakcje</h2>
+                    <div id="availableAttractionsContainer"></div>
+                </div>
+                <div class="attractionContainer">
+                    <h2 class="attractionTitle">Wybrane atrakcje</h2>
+                    <div id="selectedAttractions"></div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <label for="email">Email podróżnika:</label>
+            <input type="email" id="email" name="email" required>
+            <div id="reservationSection">
+                <div class="container">
+                    <label for="checkInDate">Data zameldowania:</label>
+                    <input type="date" id="checkInDate" name="checkInDate" required>
+                    <br>
+                    <label for="checkOutDate">Data wymeldowania:</label>
+                    <input type="date" id="checkOutDate" name="checkOutDate" required>
+                    <br>
+                </div>
+                <div class="container">
+                    <label for="adults">Liczba dorosłych:</label>
+                    <input type="number" id="adults" name="adults" min="1" max="10" value="1" required>
+                    <br>
+                    <label for="children">Liczba dzieci:</label>
+                    <input type="number" id="children" name="children" min="0" max="10" value="0" required>
+                    <br>
+                    <label for="pets">Liczba zwierząt:</label>
+                    <input type="number" id="pets" name="pets" min="0" max="5" value="0" required>
+                </div>
+            </div>
+            <input type="hidden" id="selectedAttractionsInput" name="selectedAttractions">
+            <button type="submit" id="reserveHotelButton">Dodaj plan</button>
+        </form>
+        <p id="validationNote" style="color: red; display: none;">Proszę wypełnić wszystkie pola przed dodaniem planu podróży.</p>
+    </main>
+    <script src="../../public/js/trip.js"></script>
+</body>
+</html>

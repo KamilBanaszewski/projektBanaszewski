@@ -1,0 +1,12 @@
+
+    Kraj: Włochy
+    Miasto: Mediolan
+    Hotel: MediolanHotel1
+    Email podróżnika: banask501_aehit@students.vizja.pl
+    Data zameldowania: 2024-05-15
+    Data wymeldowania: 2024-05-31
+    Liczba dorosłych: 2
+    Liczba dzieci: 1
+    Liczba zwierząt: 1
+    Wybrane atrakcje: Katedra w Mediolanie, Galeria Sztuki Współczesnej, Opera La Scala
+    

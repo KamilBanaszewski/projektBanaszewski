@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../img/clouds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+main {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+select {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#reservationSection {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 100%;
+    max-width: 150px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    padding: 8px;
+    font-size: 14px;
+    text-align: center;
+}
+
+input[type="date"],
+input[type="number"],
+button {
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    width: 10%;
+}
+
+button:hover{
+    background-color: #4cd7ed;
+}
+
+#attractionDescription {
+    text-align: left;
+    margin-top: 20px;
+}
+
+#attractionSection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.attractionContainer {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.attractionTitle {
+    text-align: center;
+    font-weight: bold;
+}
+
+.attractionItem {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px;
+}
+
+#availableAttractionsContainer {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-top: 10px;
+}
+
+#availableAttractionsContainer h2 {
+    text-align: center;
+}
+
+#availableAttractionsContainer .attractionItem {
+    margin-bottom: 5px;
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#availableAttractionsContainer .attractionItem:hover {
+    background-color: #e0e0e0;
+}
+
+#selectedAttractions {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-top: 10px;
+}
+
+#selectedAttractions h2 {
+    text-align: center;
+}
+
+#selectedAttractions .attractionItem {
+    margin-bottom: 5px;
+    padding: 8px;
+    background-color: #4cd7ed;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#selectedAttractions .attractionItem:hover {
+    background-color: #e0e0e0;
+}
+
