@@ -31,7 +31,7 @@ Uwaga, jeżeli atrakcje zostały wybrane, ale chce użytkownik wybrać inny kraj
 6.Określić liczbę uczestników: ile dorosłych, ile dzieci jak i ile zwierząt
 
 # Wyjaśnienie działania zapisu formularzy
-1.Wypełniony anonimowy formularz kontaktowy zostaje zapisany jako pytanieX.txt do katalogu pytania, gdzie X to numer potwierdzenia
+1.Wypełniony anonimowy formularz kontaktowy zostaje zapisany jako pytanieX.txt do katalogu pytania, gdzie X to numer pytania
 2.Wypełniony formularz podróży zostaje zapisany jako potwierdzenieX.txt do katalogu potwierdzenia,, gdzie X to numer potwierdzenia
 
 # Instrukcje obsługi:
